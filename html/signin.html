@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" href="../asset/logo/logo-removebg.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../javascript/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="navigation"></div>
+    </header>
+    <main id="main-content">
+        <form>
+            <h1 id="signIn">
+                Sign In
+            </h1>
+           
+            <label class="signin-label" for="Email">Email:</label>
+            <input class="input-email" type="text" id="Email" name="Email" required>
+             
+            <label class="signin-label" for="password">Password:</label>
+            <input class="input-password" type="password" id="password" name="password" required>
+            
+            <div class="bot">
+                <div class="submit-button">
+                    <input class="input-submit" id="submit" value="Sign In"">
+                </div>
+
+                <p id="SignIn">
+                    Doesn't have an account?
+                    <a id="register" href="../html/register.html">Register here</a>
+                </p>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</body>
+    <script src="../javascript/register.js"></script>
+    <script src="../javascript/login.js"></script>
+</html>

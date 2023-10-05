@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../asset/logo/logo-removebg.png">
+    <script src="/javascript/jquery-3.6.0.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <header id="navigation"></header>
+
+    <main id="main-content">
+        <aside class="aside">
+            <section class="shopping-summary">
+                <h4 class="summary-title">Payment Details</h4>
+                <h6 class="total-shop">Total Shop</h6>
+                <div class="price-text">
+                    <div class="order-subtotal">
+                        <p class="total-price">Order subtotal</p>
+                        <p class="total-price" id="quan"></p>
+                    </div>
+                    <p class="price-now" id="order-sub"></p>
+                </div>
+                <div class="price-text border">
+                    <p class="total-price">Shipping subtotal</p>
+                    <p class="price-now" id="shipping"></p>
+                </div>
+
+                <h6 class="total-shop">Transaction fee</h6>
+                <div class="price-text">
+                    <p class="total-price">Service fee</p>
+                    <p class="price-now" id="service-fee"></p>
+                </div>
+                <div class="price-text border">
+                    <p class="total-price">Handling fee</p>
+                    <p class="price-now" id="handling-fee"></p>
+                </div>
+
+                <h6 class="total-shop"></h6>
+                <div class="price-text border">
+                    <p class="total-price"></p>
+                    <p class="price-now"></p>
+                </div>
+                
+                <div class="price-text total">
+                    <h4 class="summary-title">Total Payment</h4>
+                    <h4 class="price-now total"></h4>
+                </div>
+                
+                <a class="pay-now" href="../html/waiting-for-payment.html"><div class="button-pay-now">
+                    Pay Now
+                </div></a>
+            </section>
+        </aside>
+
+        <section class="buy-section">
+            <h4 class="title-buy">Buy Now</h4>
+            <div class="product-buy-card">
+                <img src="" class="product-buy-img">
+                <div class="buy-content">
+                    <div class="product-buy-text">
+                        <h6 class="product-buy-title"></h6>
+                        <p class="price-buy"></p>
+                    </div>
+                    <div class="product-buy-add">
+                        <p class="notes-buy">Add Notes</p>
+                        <div class="quantity">
+                            <svg class="icon-qty min" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8d8d8d" class="bi bi-dash" viewBox="0 0 16 16">
+                                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                            <p class="qty"></p>
+                            <svg class="icon-qty max" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#282634" class="bi bi-plus" viewBox="0 0 16 16">
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shipping-section">
+            <h4 class="title-ship">Shipping and Payment</h4>
+            <div class="shipping-payment">
+                <div class="address-card">
+                    <p class="address-title"><b id="saved-address">Home</b> - Zaldy Raditya</p>
+                    <p class="address">Jl. Raya Kb. Jeruk No.27, RT.1/RW.9, Kb. Jeruk, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530</p>
+                </div>
+                
+                <h5 class="shipping">Shipping Option</h5>
+                <div class="custom-select">
+                    <select class="shipping-opt">
+                      <option class="options" value="same-day">Same Day (Rp. 55.000)</option>
+                      <option class="options" value="next-day">Next Day (Rp. 40.000)</option>
+                      <option class="options" value="regular">Regular (Rp. 20.000)</option>
+                      <option class="options" value="cargo">Cargo (Rp. 30.000)</option>
+                    </select>
+                    <svg class="drop-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>                  
+
+                <div class="payment-section">
+                    <div class="payment-content">
+                        <img src="https://www.freepnglogos.com/uploads/logo-bca-png/bank-central-asia-logo-bank-central-asia-bca-format-cdr-png-gudril-1.png" alt="" class="payment-icon">
+                        <p class="payment-name">BCA Virtual Account</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer"></footer>
+</body>
+    <script src="../javascript/script.js"></script>
+    <script src="../javascript/product-list.js"></script>
+    <script src="../javascript/store-card.js"></script>
+    <script src="../javascript/product-buy.js"></script>
+</html>

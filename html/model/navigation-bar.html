@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-selection">
+            <a href="../home.html"><img src="/asset/logo/logo-removebg.png" alt="" class="logo"></a>
+            <div class="navbar-menu">
+                <div class="search-box">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search..."></input>
+                </div>
+                <div class="button-search">
+                    <button id="search-button" class="search-button"><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FAFAFA" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></button>
+                </div>
+                <div class="store-dropdown">
+                    <div class="navbar-item dropdown-item" onmouseenter="showDropdown()" onmouseleave="hideDropdown()">
+                        <a href="../store.html" class="navbar-link">STORE</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-item dropdown-category">
+                                <a href="../product-cat-master.html?type=PC" class="dropdown-link">PC</a>
+                                <div class="dropdown-list" id="dropdown-one">
+                                    <div class="dropdown-sub">
+                                        <a href="../product-category.html?category=CPU" class="dropdown-object">Core Processing Unit (CPU)</a>
+                                        <a href="../product-category.html?category=Motherboard" class="dropdown-object" onclick="filterProducts('Motherboard')">Motherboard</a>
+                                        <a href="../product-category.html?category=VGA" class="dropdown-object">Video Graphics Array (VGA)</a>
+                                        <a href="../product-category.html?category=RAM" class="dropdown-object">Random Access Memory (RAM)</a>
+                                        <a href="../product-category.html?category=SSD" class="dropdown-object">Solid State Drive (SSD)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-item dropdown-category">
+                                <a href="../product-cat-master.html?type=Accessories" class="dropdown-link">ACCESSORIES</a>
+                                <div class="dropdown-list" id="dropdown-second">
+                                    <div class="dropdown-sub">
+                                        <a href="../product-category.html?category=Keyboard" class="dropdown-object">Keyboard</a>
+                                        <a href="../product-category.html?category=Mouse" class="dropdown-object">Mouse</a>
+                                        <a href="../product-category.html?category=Audio" class="dropdown-object">Audio</a>
+                                        <a href="../product-category.html?category=Memory" class="dropdown-object">Memory</a>
+                                        <a href="../product-category.html?category=Others" class="dropdown-object">Others</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-item">
+                    <a href="../about-us.html" class="navbar-link">ABOUT US</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="../home.html#contactus" class="navbar-link">CONTACT</a>
+                </div>
+            </div>
+            <div class="navbar-user" id="navbar-user">
+                <div id="profile-icon">
+                    <svg id="icon-profile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg>
+                </div>
+                <div class="navbar-item">
+                    <a href="../register.html"><button id="regist">REGISTER</button></a>
+                </div>
+                <div class="navbar-item">
+                    <a href="../signin.html"><button id="signin">SIGN IN</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+    <script src="../../javascript/script.js"></script>
+</html>
