@@ -19,7 +19,7 @@ body{
 /* HEADER */
 
 header{
-    height: fit-content;
+    height: 90px;
 }
 
 .navbar{
