@@ -18,6 +18,10 @@ body{
 
 /* HEADER */
 
+header{
+    height: fit-content;
+}
+
 .navbar{
     width: 100%;
     height: 90px;
@@ -426,15 +430,15 @@ footer{
 }
 
 .cat-card.vga:hover .cat-icon-img {
-    content: url("../asset/logo/vga.png");
+    content: url("../asset/LOGO/vga.png");
 }
 
 .cat-card.keyboard:hover .cat-icon-img {
-    content: url("../asset/logo/keyboard.png");
+    content: url("../asset/LOGO/keyboard.png");
 }
 
 .cat-card.others:hover .cat-icon-img {
-    content: url("../asset/logo/others.png");
+    content: url("../asset/LOGO/others.png");
 }
 
 .cat-icon{
@@ -886,15 +890,15 @@ form{
 }
 
 .category-list:hover .cat-sel-icon-img-other.key {
-    content: url(../asset/logo/keyboard.png);
+    content: url(../asset/LOGO/keyboard.png);
   }
   
   .category-list:hover .cat-sel-icon-img.vga {
-    content: url(../asset/logo/vga.png);
+    content: url(../asset/LOGO/vga.png);
   }
   
   .category-list:hover .cat-sel-icon-img-other.oth {
-      content: url(../asset/logo/others.png);
+      content: url(../asset/LOGO/others.png);
   }
 
 .category-list.active {
@@ -910,15 +914,15 @@ form{
 }
 
 .category-list.active .cat-sel-icon-img-other.key {
-  content: url(../asset/logo/keyboard-red.png);
+  content: url(../asset/LOGO/keyboard-red.png);
 }
 
 .category-list.active .cat-sel-icon-img.vga {
-  content: url(../asset/logo/vga-red.png);
+  content: url(../asset/LOGO/vga-red.png);
 }
 
 .category-list.active .cat-sel-icon-img-other.oth {
-    content: url(../asset/logo/other-red.png);
+    content: url(../asset/LOGO/other-red.png);
 }
 
 .category-list.active {

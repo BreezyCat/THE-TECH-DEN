@@ -9,7 +9,7 @@ function SubmitSignIn() {
     if (user) {
         alert("Sign In Successful");
         localStorage.setItem("signedIn", "true");
-        window.location.href = "home.html";
+        window.location.href = "../html/home.html";
     } else {
         alert("Invalid email or password. Please try again.");
     }
