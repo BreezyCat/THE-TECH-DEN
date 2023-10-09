@@ -21,16 +21,16 @@ function createRating(rating) {
     var halfStar = (rating % 1) !== 0;
 
     for (var i = 0; i < fullStar; i++) {
-    starRating.appendChild(createStar('/asset/SVG/star-review-full.svg'));
+    starRating.appendChild(createStar('../asset/SVG/star-review-full.svg'));
     }
 
     if (halfStar) {
-    starRating.appendChild(createStar('/asset/SVG/star-review-half.svg'));
+    starRating.appendChild(createStar('../asset/SVG/star-review-half.svg'));
     }
 
     var emptyStar = 5 - Math.ceil(rating);
     for (var j = 0; j < emptyStar; j++) {
-    starRating.appendChild(createStar('/asset/SVG/star-review-empty.svg'));
+    starRating.appendChild(createStar('../asset/SVG/star-review-empty.svg'));
     }
 
     var ratingText = document.createElement('p');

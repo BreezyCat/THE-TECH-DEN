@@ -1,7 +1,7 @@
 var products = [
   {
     productId: 'PR001',
-    productImage: '/asset/RAM/KLEVV DDR4 CRAS XR RGB PC28800 3600MHz 16GB (2X8GB) RGB LED - KD48GU880-36A180Z.png',
+    productImage: '../asset/RAM/KLEVV DDR4 CRAS XR RGB PC28800 3600MHz 16GB (2X8GB) RGB LED - KD48GU880-36A180Z.png',
     productName: 'KLEVV DDR4 CRAS XR RGB PC28800 3600MHz 16GB',
     productPrice: 250000,
     productRating: 4.5,
@@ -11,7 +11,7 @@ var products = [
   },
   {
     productId: 'PR002',
-    productImage: '/asset/MONITOR/AOC 27 G2790VXA Gaming Monitor 144Hz.png',
+    productImage: '../asset/MONITOR/AOC 27 G2790VXA Gaming Monitor 144Hz.png',
     productName: 'AOC 27 G2790VXA Gaming Monitor 144Hz',
     productPrice: 2200000,
     productRating: 4.3,
@@ -21,7 +21,7 @@ var products = [
   },
   {
     productId: 'PR003',
-    productImage: '/asset/PROCESSOR/PROCESSOR i9.png',
+    productImage: '../asset/PROCESSOR/PROCESSOR i9.png',
     productName: 'Processor Intel Gen 10th I9 10900f',
     productPrice: 2800000,
     productRating: 4.7,
@@ -31,7 +31,7 @@ var products = [
   },
   {
     productId: 'PR004',
-    productImage: '/asset/COOLER/Antec Vortex 360 ARGB Liquid Cooler - Suspended Spiral Pump Head Design - 3x Fusion 120 PWM ARGB Fan.png',
+    productImage: '../asset/COOLER/Antec Vortex 360 ARGB Liquid Cooler - Suspended Spiral Pump Head Design - 3x Fusion 120 PWM ARGB Fan.png',
     productName: 'Antec Vortex 360 ARGB Liquid Cooler',
     productPrice: 1600000,
     productRating: 4.8,
@@ -41,7 +41,7 @@ var products = [
   },
   {
     productId: 'PR005',
-    productImage: '/asset/MOTHER BOARD/Asrock Z790 Steel Legend WIFI (LGA1700, Z790, DDR5, USB3.2 Type-C, SATA3).png',
+    productImage: '../asset/MOTHER BOARD/Asrock Z790 Steel Legend WIFI (LGA1700, Z790, DDR5, USB3.2 Type-C, SATA3).png',
     productName: 'Asrock Z790 Steel Legend WIFI',
     productPrice: 2000000,
     productRating: 4.5,
@@ -51,7 +51,7 @@ var products = [
   },
   {
     productId: 'PR006',
-    productImage: '/asset/SPEAKER/NYK Speaker Gaming X60 Quantum.png',
+    productImage: '../asset/SPEAKER/NYK Speaker Gaming X60 Quantum.png',
     productName: 'NYK Speaker Gaming X60 Quantum',
     productPrice: 800000,
     productRating: 4.6,
@@ -61,7 +61,7 @@ var products = [
   },
   {
     productId: 'PR007',
-    productImage: '/asset/CASING/PRIME C-[R] BLACK YELLOW - ALUMUNIUM EXTREME GAMING CASE - DUAL SIDE TEMPERED GLASS - ARGB LED STRIP - INCLUDED 1Pcs 12CM ARGB FAN.png',
+    productImage: '../asset/CASING/PRIME C-[R] BLACK YELLOW - ALUMUNIUM EXTREME GAMING CASE - DUAL SIDE TEMPERED GLASS - ARGB LED STRIP - INCLUDED 1Pcs 12CM ARGB FAN.png',
     productName: 'PRIME C-[R] BLACK YELLOW',
     productPrice: 1600000,
     productRating: 4.9,
@@ -71,7 +71,7 @@ var products = [
   },
   {
     productId: 'PR008',
-    productImage: '/asset/MOTHER BOARD/Asus TUF Gaming Z590-PLUS WIFI (LGA1200, Z590, DDR4, USB3.2, SATA3).png',
+    productImage: '../asset/MOTHER BOARD/Asus TUF Gaming Z590-PLUS WIFI (LGA1200, Z590, DDR4, USB3.2, SATA3).png',
     productName: 'Asus TUF Gaming Z590-PLUS WIFI',
     productPrice: 2700000,
     productRating: 4.7,
@@ -81,7 +81,7 @@ var products = [
   },
   {
     productId: 'PR009',
-    productImage: '/asset/POWER SUPPLY/be quiet! SYSTEM POWER 9 400W.png',
+    productImage: '../asset/POWER SUPPLY/be quiet! SYSTEM POWER 9 400W.png',
     productName: 'be quiet! SYSTEM POWER 9 400W',
     productPrice: 500000,
     productRating: 4.3,
@@ -91,7 +91,7 @@ var products = [
   },
   {
     productId: 'PR010',
-    productImage: '/asset/MOUSE/GALAX SLIDER-04 Ergonomic Gaming Mouse - RGB Light - 6400DPI.png',
+    productImage: '../asset/MOUSE/GALAX SLIDER-04 Ergonomic Gaming Mouse - RGB Light - 6400DPI.png',
     productName: 'GALAX SLIDER-04 Ergonomic Gaming Mouse',
     productPrice: 150000,
     productRating: 4.8,
@@ -101,7 +101,7 @@ var products = [
   },
   {
     productId: 'PR011',
-    productImage: '/asset/CASING/GALAX REVOLUTION-05 White Edition - Mesh Front Panel Design - Tempered Glass Side Panel - Magnetic Dust Filter - INCLUDED 4Pcs 12CM RGB FANS.png',
+    productImage: '../asset/CASING/GALAX REVOLUTION-05 White Edition - Mesh Front Panel Design - Tempered Glass Side Panel - Magnetic Dust Filter - INCLUDED 4Pcs 12CM RGB FANS.png',
     productName: 'GALAX REVOLUTION-05 White Edition',
     productPrice: 500000,
     productRating: 4.7,
@@ -111,7 +111,7 @@ var products = [
   },  
   {
     productId: 'PR012',
-    productImage: '/asset/SPEAKER/Fantech Beat GS203 Gaming Speaker.png',
+    productImage: '../asset/SPEAKER/Fantech Beat GS203 Gaming Speaker.png',
     productName: 'Fantech Beat GS203 Gaming Speaker',
     productPrice: 100000,
     productRating: 3.7,
@@ -121,7 +121,7 @@ var products = [
   },
   {
     productId: 'PR013',
-    productImage: '/asset/MOUSE/ADATA XPG PRIMER - GAMING MOUSE - 12000 DPI PMW3360 Optical Sensor - Omron Mechanical Switches with 20-Million Clicks.png',
+    productImage: '../asset/MOUSE/ADATA XPG PRIMER - GAMING MOUSE - 12000 DPI PMW3360 Optical Sensor - Omron Mechanical Switches with 20-Million Clicks.png',
     productName: 'ADATA XPG PRIMER - 12000 DPI Optical Sensor',
     productPrice: 550000,
     productRating: 4.9,
@@ -131,7 +131,7 @@ var products = [
   },
   {
     productId: 'PR014',
-    productImage: '/asset/HARDISK/WD Black P10 2TB 4TB 5TB Game Drive - Hardisk Eksternal Gaming - 2 tb.png',
+    productImage: '../asset/HARDISK/WD Black P10 2TB 4TB 5TB Game Drive - Hardisk Eksternal Gaming - 2 tb.png',
     productName: 'WD Element Elements 1TB 2TB 4TB 5TB',
     productPrice: 715000,
     productRating: 4.3,
@@ -141,7 +141,7 @@ var products = [
   },
   {
     productId: 'PR015',
-    productImage: '/asset/SSD/ADATA SSD RGB XPG SPECTRIX S40G 1TB PCIE GEN3X4 - R 3500MBS W 3000MBS -AS40G-1TT-C.png',
+    productImage: '../asset/SSD/ADATA SSD RGB XPG SPECTRIX S40G 1TB PCIE GEN3X4 - R 3500MBS W 3000MBS -AS40G-1TT-C.png',
     productName: 'ADATA SSD XPG SPECTRIX S40G 1TB PCIE GEN3X4',
     productPrice: 1140000,
     productRating: 4.5,
@@ -151,7 +151,7 @@ var products = [
   },
   {
     productId: 'PR016',
-    productImage: '/asset/POWER SUPPLY/1STPLAYER Gaming PSU DK5.0 500W.png',
+    productImage: '../asset/POWER SUPPLY/1STPLAYER Gaming PSU DK5.0 500W.png',
     productName: '1STPLAYER Gaming PSU DK5.0 500W - PS-500AX',
     productPrice: 590000,
     productRating: 4.4,
@@ -161,7 +161,7 @@ var products = [
   },
   {
     productId: 'PR017',
-    productImage: '/asset/KEYBOARD/1STPLAYER THE ONE-Gi80 Wireless Mechanical Keyboard 81Keys (Gateron POM CJ Yellow Switch).png',
+    productImage: '../asset/KEYBOARD/1STPLAYER THE ONE-Gi80 Wireless Mechanical Keyboard 81Keys (Gateron POM CJ Yellow Switch).png',
     productName: '1STPLAYER THE ONE-Gi80 Wireless Keyboard',
     productPrice: 1450000,
     productRating: 4.7,
@@ -171,7 +171,7 @@ var products = [
   },
   {
     productId: 'PR018',
-    productImage: '/asset/CASING/CUBE GAMING SLEV BLACK - ATX - LEFT SIDE GLASS DOOR - Dust Filter - PSU Cover - Free 3PCS 12CM ARGB FAN.png',
+    productImage: '../asset/CASING/CUBE GAMING SLEV BLACK - ATX - LEFT SIDE GLASS DOOR - Dust Filter - PSU Cover - Free 3PCS 12CM ARGB FAN.png',
     productName: 'CUBE GAMING SLEV BLACK - ATX',
     productPrice: 730000,
     productRating: 4.2,
@@ -181,7 +181,7 @@ var products = [
   },
   {
     productId: 'PR019',
-    productImage: '/asset/SSD/KLEVV SSD CRAS C920 1TB M.2 2280 NVMe PCle Gen4 x4 - K01TBM2SP0-C92 - R7000MBs W5500MBs.png',
+    productImage: '../asset/SSD/KLEVV SSD CRAS C920 1TB M.2 2280 NVMe PCle Gen4 x4 - K01TBM2SP0-C92 - R7000MBs W5500MBs.png',
     productName: 'KLEVV SSD CRAS C920 1TB M.2 2280 NVMe PCle Gen4',
     productPrice: 1480000,
     productRating: 4.6,
@@ -191,7 +191,7 @@ var products = [
   },
   {
     productId: 'PR020',
-    productImage: '/asset/RAM/CUBE GAMING Blade DDR4 3200MHz PC25600 Single Channel 8GB (1x8GB) - Chipset By Micron.png',
+    productImage: '../asset/RAM/CUBE GAMING Blade DDR4 3200MHz PC25600 Single Channel 8GB (1x8GB) - Chipset By Micron.png',
     productName: 'CUBE GAMING Blade DDR4 3200MHz PC25600',
     productPrice: 1100000,
     productRating: 4.8,
@@ -202,7 +202,7 @@ var products = [
 
   {
     productId: 'PR021',
-    productImage: '/asset/CASING/CUBE GAMING STALLA WHITE - ATX - LEFT SIDE GLASS DOOR - Dust Filter - PSU Cover - Vertical GPU Support (Exclude Riser Cable) - Free 3PCS 12CM RAINBOW RGB FAN.png',
+    productImage: '../asset/CASING/CUBE GAMING STALLA WHITE - ATX - LEFT SIDE GLASS DOOR - Dust Filter - PSU Cover - Vertical GPU Support (Exclude Riser Cable) - Free 3PCS 12CM RAINBOW RGB FAN.png',
     productName: 'CUBE GAMING STALLA WHITE',
     productPrice: 1200000,
     productRating: 4.9,
@@ -213,7 +213,7 @@ var products = [
 
   {
     productId: 'PR022',
-    productImage: '/asset/CASING/GALAX REVOLUTION-05 White Edition - Mesh Front Panel Design - Tempered Glass Side Panel - Magnetic Dust Filter - INCLUDED 4Pcs 12CM RGB FANS.png',
+    productImage: '../asset/CASING/GALAX REVOLUTION-05 White Edition - Mesh Front Panel Design - Tempered Glass Side Panel - Magnetic Dust Filter - INCLUDED 4Pcs 12CM RGB FANS.png',
     productName: 'GALAX REVOLUTION-05 White Edition',
     productPrice: 1000000,
     productRating: 4.6,
@@ -224,7 +224,7 @@ var products = [
 
   {
     productId: 'PR023',
-    productImage: '/asset/CASING/LIAN LI O11 DYNAMIC MINI SNOW - TEMPERED GLASS FRONT & LEFT.png',
+    productImage: '../asset/CASING/LIAN LI O11 DYNAMIC MINI SNOW - TEMPERED GLASS FRONT & LEFT.png',
     productName: 'LIAN LI O11 DYNAMIC MINI SNOW',
     productPrice: 1150000,
     productRating: 4.7,
@@ -235,7 +235,7 @@ var products = [
 
   {
     productId: 'PR024',
-    productImage: '/asset/COOLER/Antec C400 120mm Blue LED CPU Cooler Quad Heatpipe - All Intel & AMD Socket.png',
+    productImage: '../asset/COOLER/Antec C400 120mm Blue LED CPU Cooler Quad Heatpipe - All Intel & AMD Socket.png',
     productName: 'Antec C400 120mm Blue LED CPU Cooler Quad Heatpipe',
     productPrice: 450000,
     productRating: 4.5,
@@ -246,7 +246,7 @@ var products = [
 
   {
     productId: 'PR025',
-    productImage: '/asset/COOLER/1STPLAYER MT240 Black ARGB Liquid Cooler with ARGB Luminous Water-Cooled Pipes - Support LGA 1700.png',
+    productImage: '../asset/COOLER/1STPLAYER MT240 Black ARGB Liquid Cooler with ARGB Luminous Water-Cooled Pipes - Support LGA 1700.png',
     productName: '1STPLAYER MT240 Black ARGB Liquid Cooler',
     productPrice: 550000,
     productRating: 4.7,
@@ -257,7 +257,7 @@ var products = [
 
   {
     productId: 'PR026',
-    productImage: '/asset/COOLER/Antec Neptune 240 ARGB - 240mm AIO ARGB LIQUID CPU COOLER.png',
+    productImage: '../asset/COOLER/Antec Neptune 240 ARGB - 240mm AIO ARGB LIQUID CPU COOLER.png',
     productName: 'Antec Neptune 240 ARGB',
     productPrice: 650000,
     productRating: 4.6,
@@ -268,7 +268,7 @@ var products = [
 
   {
     productId: 'PR027',
-    productImage: '/asset/COOLER/Antec Symphony 360 ARGB Liquid Cooler - Mirror ARGB Lighting Pump Head with ARGB PWM Fan.png',
+    productImage: '../asset/COOLER/Antec Symphony 360 ARGB Liquid Cooler - Mirror ARGB Lighting Pump Head with ARGB PWM Fan.png',
     productName: 'Antec Symphony 360 ARGB Liquid Cooler',
     productPrice: 400000,
     productRating: 4.4,
@@ -279,7 +279,7 @@ var products = [
 
   {
     productId: 'PR028',
-    productImage: '/asset/GRAPHIC CARD/GALAX Geforce GT 1030 2GB DDR5 - Garansi 3 Thn.png',
+    productImage: '../asset/GRAPHIC CARD/GALAX Geforce GT 1030 2GB DDR5 - Garansi 3 Thn.png',
     productName: 'GALAX Geforce GT 1030 2GB DDR5',
     productPrice: 2400000,
     productRating: 4.9,
@@ -290,7 +290,7 @@ var products = [
 
   {
     productId: 'PR029',
-    productImage: '/asset/GRAPHIC CARD/GALAX Geforce GTX 1650 4GB DDR6 EX (1-Click OC) - DUAL FAN - Garansi 3 Thn.png',
+    productImage: '../asset/GRAPHIC CARD/GALAX Geforce GTX 1650 4GB DDR6 EX (1-Click OC) - DUAL FAN - Garansi 3 Thn.png',
     productName: 'GALAX Geforce GTX 1650 4GB DDR6 EX',
     productPrice: 2900000,
     productRating: 4.8,
@@ -301,7 +301,7 @@ var products = [
 
   {
     productId: 'PR065',
-    productImage: '/asset/GRAPHIC CARD/GALAX Geforce RTX 2060 6GB DDR6 PLUS (1-Click OC) - DUAL FAN - Garansi 3 Thn.png',
+    productImage: '../asset/GRAPHIC CARD/GALAX Geforce RTX 2060 6GB DDR6 PLUS (1-Click OC) - DUAL FAN - Garansi 3 Thn.png',
     productName: 'GALAX Geforce RTX 2060 6GB DDR6 PLUS (1-Click OC)',
     productPrice: 3600000,
     productRating: 4.8,
@@ -312,7 +312,7 @@ var products = [
 
   {
     productId: 'PR030',
-    productImage: '/asset/GRAPHIC CARD/GALAX Geforce RTX 3060 12GB DDR6 EX (1-Click OC) - DUAL ARGB FAN - Garansi 3 Thn.png',
+    productImage: '../asset/GRAPHIC CARD/GALAX Geforce RTX 3060 12GB DDR6 EX (1-Click OC) - DUAL ARGB FAN - Garansi 3 Thn.png',
     productName: 'GALAX Geforce RTX 3060 12GB DDR6 EX (1-Click OC)',
     productPrice: 6600000,
     productRating: 4.8,
@@ -322,7 +322,7 @@ var products = [
   },
   {
     productId: 'PR031',
-    productImage: '/asset/GRAPHIC CARD/GALAX Geforce RTX 4090 24GB DDR6X SG (1-Click OC) - ARGB EFFECT - TRIPLE FAN - Garansi 3 Thn.png',
+    productImage: '../asset/GRAPHIC CARD/GALAX Geforce RTX 4090 24GB DDR6X SG (1-Click OC) - ARGB EFFECT - TRIPLE FAN - Garansi 3 Thn.png',
     productName: 'GALAX Geforce RTX 4090 24GB DDR6X SG',
     productPrice: 10600000,
     productRating: 4.9,
@@ -333,7 +333,7 @@ var products = [
 
   {
     productId: 'PR032',
-    productImage: '/asset/HARDISK/Hardisk External 1Tb Toshiba New 3.0 Garansi 1 Tahun - 500GB.png',
+    productImage: '../asset/HARDISK/Hardisk External 1Tb Toshiba New 3.0 Garansi 1 Tahun - 500GB.png',
     productName: 'Harddisk External 1Tb Toshiba 500GB',
     productPrice: 600000,
     productRating: 4.9,
@@ -343,7 +343,7 @@ var products = [
   },
   {
     productId: 'PR066',
-    productImage: '/asset/HARDISK/Seagate FireCuda Gaming HDD 2TB USB3.2 Hardisk Eksternal.png',
+    productImage: '../asset/HARDISK/Seagate FireCuda Gaming HDD 2TB USB3.2 Hardisk Eksternal.png',
     productName: 'Seagate FireCuda Gaming HDD 2TB USB3.2 Harddisk Eksternal',
     productPrice: 10600000,
     productRating: 4.9,
@@ -353,7 +353,7 @@ var products = [
   },
   {
     productId: 'PR033',
-    productImage: '/asset/HARDISK/WD Black P10 2TB 4TB 5TB Game Drive - Hardisk Eksternal Gaming - 2 tb.png',
+    productImage: '../asset/HARDISK/WD Black P10 2TB 4TB 5TB Game Drive - Hardisk Eksternal Gaming - 2 tb.png',
     productName: 'WD Black P10 2TB 4TB 5TB Game Drive',
     productPrice: 900000,
     productRating: 4.8,
@@ -363,7 +363,7 @@ var products = [
   },
   {
     productId: 'PR034',
-    productImage: '/asset/HARDISK/WD My Passport 1TB 2TB 4TB 5TB - HDD Hardisk Eksternal 2.5 inch - Merah,1 tb.png',
+    productImage: '../asset/HARDISK/WD My Passport 1TB 2TB 4TB 5TB - HDD Hardisk Eksternal 2.5 inch - Merah,1 tb.png',
     productName: 'WD My Passport 1TB 2TB 4TB 5TB',
     productPrice: 600000,
     productRating: 4.8,
@@ -373,7 +373,7 @@ var products = [
   },
   {
     productId: 'PR035',
-    productImage: '/asset/KEYBOARD/1STPLAYER DK5.0 WHITE - Gaming Mechanical Keyboard 104 Keys (Blue Switch) - RGB Backlit - Dust & Waterproof.png',
+    productImage: '../asset/KEYBOARD/1STPLAYER DK5.0 WHITE - Gaming Mechanical Keyboard 104 Keys (Blue Switch) - RGB Backlit - Dust & Waterproof.png',
     productName: '1STPLAYER DK5.0 WHITE Gaming Mechanical Keyboard 104 Keys (Blue Switch)',
     productPrice: 500000,
     productRating: 4.8,
@@ -383,7 +383,7 @@ var products = [
   },
   {
     productId: 'PR036',
-    productImage: '/asset/KEYBOARD/1STPLAYER THE ONE-Gi80 Wireless Mechanical Keyboard 81Keys (Gateron POM CJ Yellow Switch).png',
+    productImage: '../asset/KEYBOARD/1STPLAYER THE ONE-Gi80 Wireless Mechanical Keyboard 81Keys (Gateron POM CJ Yellow Switch).png',
     productName: '1STPLAYER THE ONE-LANG MK680 PHANTOM WHITE',
     productPrice: 800000,
     productRating: 4.8,
@@ -393,7 +393,7 @@ var products = [
   },
   {
     productId: 'PR037',
-    productImage: '/asset/KEYBOARD/ADATA XPG SUMMONER - MECHANICAL GAMING KEYBOARD - CHERRY MX BLUE - Magnetic Ergonomic Wrist Rest.png',
+    productImage: '../asset/KEYBOARD/ADATA XPG SUMMONER - MECHANICAL GAMING KEYBOARD - CHERRY MX BLUE - Magnetic Ergonomic Wrist Rest.png',
     productName: 'ADATA XPG SUMMONER',
     productPrice: 100000,
     productRating: 4.8,
@@ -403,7 +403,7 @@ var products = [
   },
   {
     productId: 'PR038',
-    productImage: '/asset/KEYBOARD/GALAX STEALTH STL-01 Blue Switch - Wired Mechanical RGB Gaming Keyboard (Anti-Ghosting Keys).png',
+    productImage: '../asset/KEYBOARD/GALAX STEALTH STL-01 Blue Switch - Wired Mechanical RGB Gaming Keyboard (Anti-Ghosting Keys).png',
     productName: 'GALAX STEALTH STL-01 Blue Switch',
     productPrice: 600000,
     productRating: 4.3,
@@ -413,7 +413,7 @@ var products = [
   },
   {
     productId: 'PR039',
-    productImage: '/asset/MONITOR/ASUS TUF Gaming VG259QR 24.5 IPS Gaming Monitor 165Hz.png',
+    productImage: '../asset/MONITOR/ASUS TUF Gaming VG259QR 24.5 IPS Gaming Monitor 165Hz.png',
     productName: 'ASUS TUF Gaming VG259QR 24.5 IPS Gaming Monitor 165Hz',
     productPrice: 2600000,
     productRating: 4.8,
@@ -423,7 +423,7 @@ var products = [
   },
   {
     productId: 'PR040',
-    productImage: '/asset/MONITOR/GALAX PRISMA-01 24 FHD Borderless Design 75Hz with G-SYNC - USB-C Supported.png',
+    productImage: '../asset/MONITOR/GALAX PRISMA-01 24 FHD Borderless Design 75Hz with G-SYNC - USB-C Supported.png',
     productName: 'GALAX PRISMA-01 24 FHD Borderless Design 75Hz with G-SYNC',
     productPrice: 2200000,
     productRating: 4.8,
@@ -434,7 +434,7 @@ var products = [
 
   {
     productId: 'PR041',
-    productImage: '/asset/MONITOR/GALAX VIVANCE-01 27 QHD IPS Gaming Monitor 165Hz with G-SYNC - Response Time 1ms.png',
+    productImage: '../asset/MONITOR/GALAX VIVANCE-01 27 QHD IPS Gaming Monitor 165Hz with G-SYNC - Response Time 1ms.png',
     productName: 'GALAX VIVANCE-01 27 QHD IPS Gaming Monitor 165Hz with G-SYNC',
     productPrice: 2400000,
     productRating: 4.8,
@@ -444,7 +444,7 @@ var products = [
   },
   {
     productId: 'PR042',
-    productImage: '/asset/MONITOR/SAMSUNG 27 S27AG32 Odyssey G3 FHD Gaming Monitor 165Hz.png',
+    productImage: '../asset/MONITOR/SAMSUNG 27 S27AG32 Odyssey G3 FHD Gaming Monitor 165Hz.png',
     productName: 'SAMSUNG 27 S27AG32 Odyssey G3 FHD Gaming Monitor 165Hz',
     productPrice: 3400000,
     productRating: 4.7,
@@ -455,7 +455,7 @@ var products = [
 
   {
     productId: 'PR043',
-    productImage: '/asset/MOTHER BOARD/ASRock B660M Phantom Gaming 4 (LGA1700, B660, DDR4, USB3.2, SATA3).png',
+    productImage: '../asset/MOTHER BOARD/ASRock B660M Phantom Gaming 4 (LGA1700, B660, DDR4, USB3.2, SATA3).png',
     productName: 'ASRock B660M Phantom Gaming 4',
     productPrice: 1400000,
     productRating: 4.7,
@@ -465,7 +465,7 @@ var products = [
   },
   {
     productId: 'PR044',
-    productImage: '/asset/MOTHER BOARD/ASRock Z790 PG Riptide (LGA1700, Z790, DDR5, USB3.2 Type-C, SATA3).png',
+    productImage: '../asset/MOTHER BOARD/ASRock Z790 PG Riptide (LGA1700, Z790, DDR5, USB3.2 Type-C, SATA3).png',
     productName: 'ASRock Z790 PG Riptide',
     productPrice: 1900000,
     productRating: 4.7,
@@ -475,7 +475,7 @@ var products = [
   },
   {
     productId: 'PR045',
-    productImage: '/asset/MOTHER BOARD/Asus ROG MAXIMUS Z790 APEX (LGA1700, Z790, DDR5, USB3.2 Type-C, SATA3).png',
+    productImage: '../asset/MOTHER BOARD/Asus ROG MAXIMUS Z790 APEX (LGA1700, Z790, DDR5, USB3.2 Type-C, SATA3).png',
     productName: 'Asus ROG MAXIMUS Z790 APEX',
     productPrice: 2100000,
     productRating: 4.6,
@@ -486,7 +486,7 @@ var products = [
 
   {
     productId: 'PR046',
-    productImage: '/asset/MOUSE/ADATA XPG INFAREX M20 - GAMING MOUSE - 5000 DPI - OMRON switches 20 million clicks.png',
+    productImage: '../asset/MOUSE/ADATA XPG INFAREX M20 - GAMING MOUSE - 5000 DPI - OMRON switches 20 million clicks.png',
     productName: 'ADATA XPG INFAREX M20',
     productPrice: 200000,
     productRating: 4.8,
@@ -496,7 +496,7 @@ var products = [
   },
    {
     productId: 'PR047',
-    productImage: '/asset/MOUSE/GALAX SLIDER-01 Wired Gaming Mouse RGB - 7200DPI.png',
+    productImage: '../asset/MOUSE/GALAX SLIDER-01 Wired Gaming Mouse RGB - 7200DPI.png',
     productName: 'GALAX SLIDER-01',
     productPrice: 150000,
     productRating: 4.8,
@@ -506,7 +506,7 @@ var products = [
   },
   {
     productId: 'PR049',
-    productImage: '/asset/POWER SUPPLY/1STPLAYER ARMOUR 650W Gaming PSU.png',
+    productImage: '../asset/POWER SUPPLY/1STPLAYER ARMOUR 650W Gaming PSU.png',
     productName: '1STPLAYER ARMOUR 650W Gaming PSU',
     productPrice: 1250000,
     productRating: 4.8,
@@ -516,7 +516,7 @@ var products = [
   },
   {
     productId: 'PR050',
-    productImage: '/asset/POWER SUPPLY/1STPLAYER Gaming PSU BLACK SIR 450W PS.png',
+    productImage: '../asset/POWER SUPPLY/1STPLAYER Gaming PSU BLACK SIR 450W PS.png',
     productName: '1STPLAYER Gaming PSU BLACK SIR 450W PS-450BS',
     productPrice: 2500000,
     productRating: 4.8,
@@ -526,7 +526,7 @@ var products = [
   },
   {
     productId: 'PR051',
-    productImage: '/asset/POWER SUPPLY/PRIME PREMIUM 650W.png',
+    productImage: '../asset/POWER SUPPLY/PRIME PREMIUM 650W.png',
     productName: 'PRIME PREMIUM 650W',
     productPrice: 1900000,
     productRating: 4.8,
@@ -536,7 +536,7 @@ var products = [
   },
   {
     productId: 'PR052',
-    productImage: '/asset/PROCESSOR/PROCESSOR I5.png',
+    productImage: '../asset/PROCESSOR/PROCESSOR I5.png',
     productName: 'PROCESSOR I5',
     productPrice: 2900000,
     productRating: 4.8,
@@ -546,7 +546,7 @@ var products = [
   },
   {
     productId: 'PR053',
-    productImage: '/asset/PROCESSOR/PROCESSOR i7.png',
+    productImage: '../asset/PROCESSOR/PROCESSOR i7.png',
     productName: 'PROCESSOR i7',
     productPrice: 3900000,
     productRating: 4.8,
@@ -556,7 +556,7 @@ var products = [
   },
   {
     productId: 'PR054',
-    productImage: '/asset/PROCESSOR/RYZEN 7.png',
+    productImage: '../asset/PROCESSOR/RYZEN 7.png',
     productName: 'RYZEN 7',
     productPrice: 2900000,
     productRating: 4.8,
@@ -566,7 +566,7 @@ var products = [
   },
   {
     productId: 'PR055',
-    productImage: '/asset/PROCESSOR/RYZEN 9.png',
+    productImage: '../asset/PROCESSOR/RYZEN 9.png',
     productName: 'RYZEN 9',
     productPrice: 4900000,
     productRating: 4.8,
@@ -577,7 +577,7 @@ var products = [
 
   {
     productId: 'PR056',
-    productImage: '/asset/RAM/KLEVV CRAS XR5 RGB DDR5 PC49600 6200MHz 32GB (2X16GB) White Heat-Spreader - KD5AGUA80-62E400S.png',
+    productImage: '../asset/RAM/KLEVV CRAS XR5 RGB DDR5 PC49600 6200MHz 32GB (2X16GB) White Heat-Spreader - KD5AGUA80-62E400S.png',
     productName: 'KLEVV CRAS XR5 RGB DDR5 PC49600 6200MHz 32GB (2X16GB)',
     productPrice: 1500000,
     productRating: 4.8,
@@ -587,7 +587,7 @@ var products = [
   },
   {
     productId: 'PR057',
-    productImage: '/asset/RAM/KLEVV DDR4 Value Series PC21300 2666MHZ 8GB (1x8GB) - COMPATIBLE WITH INTEL & AMD RYZEN.png',
+    productImage: '../asset/RAM/KLEVV DDR4 Value Series PC21300 2666MHZ 8GB (1x8GB) - COMPATIBLE WITH INTEL & AMD RYZEN.png',
     productName: 'KLEVV DDR4 Value Series PC21300 2666MHZ 8GB (1x8GB)',
     productPrice: 500000,
     productRating: 4.8,
@@ -598,7 +598,7 @@ var products = [
 
   {
     productId: 'PR058',
-    productImage: '/asset/RAM/KLEVV DDR5 Value Series PC38400 4800Mhz 16GB (1x16GB) - KD5AGUA80-48G400A.png',
+    productImage: '../asset/RAM/KLEVV DDR5 Value Series PC38400 4800Mhz 16GB (1x16GB) - KD5AGUA80-48G400A.png',
     productName: 'KLEVV DDR5 Value Series PC38400 4800Mhz 16GB (1x16GB)',
     productPrice: 500000,
     productRating: 4.8,
@@ -608,7 +608,7 @@ var products = [
   },
   {
     productId: 'PR059',
-    productImage: '/asset/SPEAKER/Audio Box BBX-T1000 Spectra Portable Bluetooth Speaker.png',
+    productImage: '../asset/SPEAKER/Audio Box BBX-T1000 Spectra Portable Bluetooth Speaker.png',
     productName: 'Audio Box BBX-T1000 Spectra Portable Bluetooth Speaker',
     productPrice: 500000,
     productRating: 4.8,
@@ -618,7 +618,7 @@ var products = [
   },
   {
     productId: 'PR060',
-    productImage: '/asset/SPEAKER/Fantech Sonar GS202 Gaming Speaker.png',
+    productImage: '../asset/SPEAKER/Fantech Sonar GS202 Gaming Speaker.png',
     productName: 'Fantech Sonar GS202 Gaming Speaker',
     productPrice: 900000,
     productRating: 4.8,
@@ -629,7 +629,7 @@ var products = [
 
   {
     productId: 'PR061',
-    productImage: '/asset/SPEAKER/Fantech Trifecta GS301 RGB Dual Connection Gaming Speaker.png',
+    productImage: '../asset/SPEAKER/Fantech Trifecta GS301 RGB Dual Connection Gaming Speaker.png',
     productName: 'Fantech Trifecta GS301 RGB Dual Connection Gaming Speaker',
     productPrice: 800000,
     productRating: 4.8,
@@ -639,7 +639,7 @@ var products = [
   },
   {
     productId: 'PR062',
-    productImage: '/asset/SSD/ADATA SX6000PRO 512GB M.2 NVME PCIE GEN3X4 R 2100MBS W 1500MBS.png',
+    productImage: '../asset/SSD/ADATA SX6000PRO 512GB M.2 NVME PCIE GEN3X4 R 2100MBS W 1500MBS.png',
     productName: 'ADATA SX6000PRO 512GB M.2 NVME PCIE GEN3X4 R 2100MBS W 1500MBS',
     productPrice: 800000,
     productRating: 4.8,
@@ -649,7 +649,7 @@ var products = [
   },
   {
     productId: 'PR063',
-    productImage: '/asset/SSD/Corsair MP600 PRO LPX 1TB PCIe Gen4 x4 NVMe M.2 SSD - CSSD-F1000GBMP600PLP - PS5 Compatible.png',
+    productImage: '../asset/SSD/Corsair MP600 PRO LPX 1TB PCIe Gen4 x4 NVMe M.2 SSD - CSSD-F1000GBMP600PLP - PS5 Compatible.png',
     productName: 'Corsair MP600 PRO LPX 1TB PCIe Gen4 x4 NVMe M.2 SSD',
     productPrice: 700000,
     productRating: 4.8,
@@ -659,7 +659,7 @@ var products = [
   },
   {
     productId: 'PR064',
-    productImage: '/asset/SSD/CUBE GAMING Phoenix SSD 512GB M.2 NVME PCIe Gen3x4.png',
+    productImage: '../asset/SSD/CUBE GAMING Phoenix SSD 512GB M.2 NVME PCIe Gen3x4.png',
     productName: 'CUBE GAMING Phoenix SSD 512GB M.2 NVME PCIe Gen3x4',
     productPrice: 900000,
     productRating: 4.8,
