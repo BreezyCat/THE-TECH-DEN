@@ -24,7 +24,7 @@ if (type === 'PC') {
     <p class="cat-title">Motherboard</p>
 </div>
 <div class="cat-card vga" value="VGA">
-    <img src="../asset/logo/vga-white.png" alt="" class="cat-icon-img">
+    <img src="../asset/LOGO/vga-white.png" alt="" class="cat-icon-img">
     <p class="cat-title">VGA</p>
 </div>
 <div class="cat-card" value="RAM">
@@ -42,7 +42,7 @@ if (type === 'PC') {
 </div>
 `} else if (type === 'Accessories') {
     divSection.innerHTML = `<div class="cat-card keyboard" value="Keyboard">
-    <img src="../asset/logo/keyboard-white.png" alt="" class="cat-icon-img">
+    <img src="../asset/LOGO/keyboard-white.png" alt="" class="cat-icon-img">
     <p class="cat-title">Keyboard</p>
 </div>
 <div class="cat-card" value="Mouse">
@@ -65,7 +65,7 @@ if (type === 'PC') {
     <p class="cat-title">Memory</p>
 </div>
 <div class="cat-card others" value="Others">
-    <img src="../asset/logo/others-white.png" alt="" class="cat-icon-img other">
+    <img src="../asset/LOGO/others-white.png" alt="" class="cat-icon-img other">
     <p class="cat-title others-title">Others</p>
 </div>
 `}
@@ -109,7 +109,7 @@ function categoryClick() {
     categoryCards.forEach(card => {
         card.addEventListener('click', () => {
             const category = card.getAttribute('value');
-            window.location.href = `product-category.html?category=${category}`;
+            window.location.href = `../html/product-category.html?category=${category}`;
         });
     });
 }

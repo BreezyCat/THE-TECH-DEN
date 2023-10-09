@@ -1,5 +1,5 @@
 function storeCardClick(productId) {
-    window.location.href = `/html/product-detail.html?productId=${productId}`;
+    window.location.href = `../html/product-detail.html?productId=${productId}`;
 }
 
 

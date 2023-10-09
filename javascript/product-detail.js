@@ -30,7 +30,7 @@ function buyNow () {
       var urlParams = new URLSearchParams(window.location.search);
       var productId = urlParams.get("productId");
     
-      window.location.href = "/html/buy-now.html?productId=" + productId;
+      window.location.href = "../html/buy-now.html?productId=" + productId;
     });
 }
 
