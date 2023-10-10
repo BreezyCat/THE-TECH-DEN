@@ -337,7 +337,7 @@ footer{
 }
 
 .carousel-item {
-    width: 100%;
+    width: 100vmin;
   flex: 0 0 100%;
   height: auto;
   object-fit: cover;
